@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="py-20 bg-primary">
@@ -29,13 +30,18 @@ export default function Hero() {
                 path forward.
               </p>
             </div>
-            <div className="flex gap-4  md:flex-row flex-col">
-              <button className="bg-white text-primary py-3 px-10 text-[16px] font-inter font-semibold rounded-md">
+            <div className="flex text-center gap-4  md:flex-row flex-col">
+              <Link
+                href="mailto:Wendy@aquietmindllc.com"
+                className="bg-white text-primary py-3 px-10 text-[16px] font-inter font-semibold rounded-md">
                 Contact Me
-              </button>
-              <button className="border border-white  text-white py-3 px-10 text-[16px] font-inter font-semibold rounded-md">
+              </Link>
+              <a
+                target="_blank"
+                href="https://www.zocdoc.com/practice/a-quiet-mind-llc-141302?lock=true&isNewPatient=false&referrerType=widget"
+                className="border border-white  text-white py-3 px-10 text-[16px] font-inter font-semibold rounded-md">
                 Book Now
-              </button>
+              </a>
             </div>
           </div>
           <div>

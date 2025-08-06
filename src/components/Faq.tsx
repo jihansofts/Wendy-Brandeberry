@@ -21,8 +21,7 @@ const faqs = [
   },
   {
     question: "Do you offer mobile services, or is everything in-studio?",
-    answer:
-      "We primarily offer in-studio services, but some mobile services may be available on request.",
+    answer: "At this time I only do telehealth appointments",
   },
   {
     question: "Do you accept insurance?",
@@ -43,7 +42,7 @@ export default function Faq() {
       <div
         id="faq"
         className="container mx-auto px-4 p-16 rounded-2xl sm:px-6 lg:px-8">
-        <h2 className="text-[56px] font-semibold text-center text-[#002629] mb-14">
+        <h2 className="lg:text-[56px] md:text-[40px] text-[32px] font-inter font-semibold text-center text-[#002629] mb-14">
           FAQ
         </h2>
         <div className="space-y-4">

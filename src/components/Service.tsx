@@ -21,7 +21,7 @@ export default function Service() {
             </div>
             <div>
               <div className="max-w-2xl">
-                <h1 className="text-[48px] font-inter font-bold text-[#002629] mb-6">
+                <h1 className="lg:text-[48px] md:text-[40px] text-[32px] font-inter font-bold text-[#002629] mb-6">
                   My Services
                 </h1>
                 <p className="text-[16px] font-inter font-normal text-[#1E1E1ED9] mb-6">
@@ -35,12 +35,14 @@ export default function Service() {
                   clear, and actionable. I provide medication management and
                   therapy via Telehealth
                 </p>
-                <motion.button
+                <motion.a
+                  target="_blank"
+                  href="https://www.zocdoc.com/practice/a-quiet-mind-llc-141302?lock=true&isNewPatient=false&referrerType=widget"
                   whileHover={{ scale: 1.05, backgroundColor: "#0BAB7D" }}
                   whileTap={{ scale: 0.95 }}
                   className=" bg-primary text-white px-8 py-3 rounded-md text-[16px] font-inter font-medium">
                   Book Consultation
-                </motion.button>
+                </motion.a>
               </div>
             </div>
           </div>

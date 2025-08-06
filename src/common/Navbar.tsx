@@ -49,15 +49,13 @@ export default function Navbar() {
               <Image
                 src="/images/logo.png"
                 alt="Logo"
-                width={60}
-                height={60}
+                width={80}
+                height={80}
                 className=""
               />
             </motion.div>
           </div>
-
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center">
             {navItems.map((item) => (
               <motion.div
                 key={item.name}
@@ -82,6 +80,9 @@ export default function Navbar() {
                 )}
               </motion.div>
             ))}
+          </div>
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
             <motion.button
               whileHover={{ scale: 1.05, backgroundColor: "#0BAB7D" }}
               whileTap={{ scale: 0.95 }}
@@ -151,21 +152,15 @@ export default function Navbar() {
                     }`}>
                     {item.name}
                   </a>
-                  {isActive(item.path) && (
-                    <motion.div
-                      className="absolute bottom-[-4] left-3 transform -translate-x-1/2 w-1.5 h-1.5 bg-primary rounded-full"
-                      initial={{ scale: 0 }}
-                      animate={{ scale: 1 }}
-                      transition={{ type: "spring", bounce: 0.5 }}
-                    />
-                  )}
                 </motion.div>
               ))}
-              <motion.button
+              <motion.a
+                target="_blank"
+                href="https://www.zocdoc.com/practice/a-quiet-mind-llc-141302?lock=true&isNewPatient=false&referrerType=widget"
                 variants={mobileItemVariants}
                 className="w-full mt-2 bg-primary text-white px-4 py-2 rounded-md text-base font-medium">
                 Book Consultation
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
         )}
