@@ -38,11 +38,11 @@ export default function Faq() {
   };
 
   return (
-    <section className="bg-[#C3FFEE] py-12">
+    <section className="bg-[#C3FFEE] lg:py-12 md:py-10 py-10">
       <div
         id="faq"
-        className="container mx-auto px-4 p-16 rounded-2xl sm:px-6 lg:px-8">
-        <h2 className="lg:text-[56px] md:text-[40px] text-[32px] font-inter font-semibold text-center text-[#002629] mb-14">
+        className="container mx-auto px-4 lg:p-16 md:p-10 p-5 rounded-2xl sm:px-6 lg:px-8">
+        <h2 className="lg:text-[56px] md:text-[40px] text-[32px] font-inter font-semibold text-center text-[#002629] lg:mb-14 md:mb-10 mb-6">
           FAQ
         </h2>
         <div className="space-y-4">

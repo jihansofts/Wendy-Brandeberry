@@ -4,10 +4,10 @@ import InfoSection from "@/common/InfoSection";
 import { motion } from "framer-motion";
 export default function WhyChooseMe() {
   return (
-    <section className="lg:py-16 md:py-10 py-5 bg-white">
+    <section className="lg:py-16 md:py-10 py-10 bg-white">
       <div
         id="why"
-        className="container mx-auto px-4 lg:p-16 md:p-10 p-0 rounded-2xl sm:px-6 lg:px-8">
+        className="container mx-auto px-5 rounded-2xl sm:px-6 lg:px-8">
         <h1 className="text-[#002629] lg:text-[50px] md:text-[40px] text-[32px] font-bold font-inter text-center">
           Why Choose Me?
         </h1>

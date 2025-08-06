@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 export default function Service() {
   return (
-    <section className="py-20 bg-white">
+    <section className="lg:py-20 md:py-16 py-10 bg-white">
       <div
         id="service"
         className="container mx-auto px-4 p-16 rounded-2xl sm:px-6 lg:px-8 bg-[#0BAB7D1F]">
