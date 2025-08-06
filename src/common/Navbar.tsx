@@ -83,12 +83,14 @@ export default function Navbar() {
           </div>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <motion.button
+            <motion.a
+              href="https://www.zocdoc.com/practice/a-quiet-mind-llc-141302?lock=true&isNewPatient=false&referrerType=widget"
+              target="_blank"
               whileHover={{ scale: 1.05, backgroundColor: "#0BAB7D" }}
               whileTap={{ scale: 0.95 }}
               className="ml-4 bg-primary text-white px-8 py-3 rounded-md text-[16px] font-inter font-medium">
               Book Consultation
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile menu button */}
