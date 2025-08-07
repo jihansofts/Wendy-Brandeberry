@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 interface InfoSectionProps {
   title: string;

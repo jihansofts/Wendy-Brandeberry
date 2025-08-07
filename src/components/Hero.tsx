@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,7 +33,7 @@ export default function Hero() {
             </div>
             <div className="flex text-center gap-4  md:flex-row flex-col">
               <Link
-                href="mailto:Wendy@aquietmindllc.com"
+                href="mailto:wendy@aquietmindllc.org"
                 className="bg-white text-primary py-3 px-10 text-[16px] font-inter font-semibold rounded-md">
                 Contact Me
               </Link>
