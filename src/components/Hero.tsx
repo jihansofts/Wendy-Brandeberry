@@ -33,7 +33,7 @@ export default function Hero() {
             </div>
             <div className="flex text-center gap-4  md:flex-row flex-col">
               <Link
-                href="mailto:wendy@aquietmindllc.org"
+                href="mailto:RNFrosty0@gmail.com"
                 className="bg-white text-primary py-3 px-10 text-[16px] font-inter font-semibold rounded-md">
                 Contact Me
               </Link>
